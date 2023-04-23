@@ -50,7 +50,7 @@ static int GetNumberOfElevators()
 	int selectedNumber;
 	while (true)
 	{
-		Console.WriteLine("Number of elevators to create : ");
+		Console.WriteLine("Number of elevators to create (Max 20): ");
 		var numberOfElevators = Console.ReadLine();
 
 		if (ValidateNumberOfElevators(numberOfElevators))
@@ -76,7 +76,7 @@ static int PickFloor()
 	int selectedFloor;
 	while (true)
 	{
-		Console.WriteLine("Pick floor number : ");
+		Console.WriteLine("Pick floor number (Max 20): ");
 		var floor = Console.ReadLine();
 
 		if (ValidateSelectedFloor(floor))
@@ -103,11 +103,11 @@ static (int numberOfPeople, int totalWeight) LoadPeople(int maxWeight)
 	int people;
 	var numberOfPeople = GetNumberOfPeople();
 
-	for (people = 0; people <= numberOfPeople; people++)
+	for (people = 1; people <= numberOfPeople; people++)
 	{
 		while (people <= numberOfPeople)
 		{
-			Console.Write($"Enter the weight of person {people + 1} (or 0 to exit): ");
+			Console.Write($"Enter the weight of person {people} (or 0 to exit): ");
 			var weight = int.Parse(Console.ReadLine());
 
 			if (weight == 0)
@@ -135,11 +135,11 @@ static (int numberOfPeople, int totalWeight) LoadPeople(int maxWeight)
 static int GetNumberOfPeople()
 {
 	int people;
-	var peopleLimitRegex = new Regex("^[1-9]$|^1[0-9]$|^8$");
+	var peopleLimitRegex = new Regex("^[1-8]$");
 	
 	while (true)
 	{
-		Console.Write("Enter number of people entering elevator : ");
+		Console.Write("Enter number of people entering elevator (Max 8): ");
 		var numberOfPeople = Console.ReadLine();
 
 		if (peopleLimitRegex.IsMatch(numberOfPeople))
