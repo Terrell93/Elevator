@@ -1,0 +1,6 @@
+2
+False
+2
+True
+0
+Elevator took 5 people to floor number: 2
