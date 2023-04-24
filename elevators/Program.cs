@@ -110,23 +110,21 @@ static (int numberOfPeople, int totalWeight) LoadPeople(int maxWeight)
 			Console.Write($"Enter the weight of person {people} (or 0 to exit): ");
 			var weight = Console.ReadLine();
 			var weightValid = int.TryParse(weight,out var peopleWeight);
-			if (weightValid)
+			if (!weightValid) continue;
+			if (peopleWeight == 0)
 			{
-				if (peopleWeight == 0)
-				{
-					Console.WriteLine("Exiting...");
-					break;
-				}
-
-				if (totalWeight + peopleWeight > maxWeight)
-				{
-					Console.WriteLine("Maximum limit exceeded. Exiting...");
-					break;
-				}
-
-				people++;
-				totalWeight += peopleWeight;
+				Console.WriteLine("Exiting...");
+				break;
 			}
+
+			if (totalWeight + peopleWeight > maxWeight)
+			{
+				Console.WriteLine("Maximum limit exceeded. Exiting...");
+				break;
+			}
+
+			people++;
+			totalWeight += peopleWeight;
 		}
 
 		Console.WriteLine("Invalid input. Please try again.");
