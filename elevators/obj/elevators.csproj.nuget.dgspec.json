@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\terrell.ncube\\Desktop\\test\\d\\elevators\\elevators\\elevators.csproj": {}
+    "C:\\Users\\terrell.ncube\\Desktop\\test\\d\\Elevator\\Elevator\\elevators\\elevators.csproj": {}
   },
   "projects": {
-    "C:\\Users\\terrell.ncube\\Desktop\\test\\d\\elevators\\elevators\\elevators.csproj": {
+    "C:\\Users\\terrell.ncube\\Desktop\\test\\d\\Elevator\\Elevator\\elevators\\elevators.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\terrell.ncube\\Desktop\\test\\d\\elevators\\elevators\\elevators.csproj",
+        "projectUniqueName": "C:\\Users\\terrell.ncube\\Desktop\\test\\d\\Elevator\\Elevator\\elevators\\elevators.csproj",
         "projectName": "elevators",
-        "projectPath": "C:\\Users\\terrell.ncube\\Desktop\\test\\d\\elevators\\elevators\\elevators.csproj",
+        "projectPath": "C:\\Users\\terrell.ncube\\Desktop\\test\\d\\Elevator\\Elevator\\elevators\\elevators.csproj",
         "packagesPath": "C:\\Users\\terrell.ncube\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\terrell.ncube\\Desktop\\test\\d\\elevators\\elevators\\obj\\",
+        "outputPath": "C:\\Users\\terrell.ncube\\Desktop\\test\\d\\Elevator\\Elevator\\elevators\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
