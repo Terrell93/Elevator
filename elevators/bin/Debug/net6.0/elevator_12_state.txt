@@ -1,6 +1,0 @@
-12
-False
-1
-False
-0
-

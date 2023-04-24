@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8QsLub0Ee5ShYTV/Z0gevqJ6bNbXnqod53t3oa/TTDWo659H4yZvm87Jd5GeRRJ22rgBPZnSmlr3GpO1GQHpCw==",
+  "dgSpecHash": "wlmDiuljnPzMh241fgYH7Sgob/L2quQzDb7ey8nwuchD+1Q/Xx5GPFjlUHyUSwLGrArpIGvU1jQhunGVM/IjuQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\terrell.ncube\\Desktop\\test\\d\\elevators\\elevators\\elevators.csproj",
+  "projectFilePath": "C:\\Users\\terrell.ncube\\Desktop\\test\\d\\Elevator\\Elevator\\elevators\\elevators.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\terrell.ncube\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
     "C:\\Users\\terrell.ncube\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
